@@ -13,6 +13,9 @@ module.exports = {
   // /public directory of your GitHub project (not your OneDrive folder!), and referenced here by its relative path to /public.
   icon: '/icons/128.png',
 
+  // Prefix for KV Storage
+  kvPrefix: process.env.KV_PREFIX || '',
+
   // The name of your website. Present alongside your icon.
   title: "Spencer's OneDrive",
 
@@ -51,10 +54,6 @@ module.exports = {
     {
       name: 'GitHub',
       link: 'https://github.com/spencerwooo/onedrive-vercel-index',
-    },
-    {
-      name: 'Telegram',
-      link: 'https://t.me/realSpencerWoo',
     },
   ],
 
